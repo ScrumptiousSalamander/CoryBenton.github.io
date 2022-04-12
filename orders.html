@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Cory's Cookies</title>
+		<meta charset="utf-8">
+		<link href="cookies.css" rel="stylesheet">
+	</head>
+<body>
+	<div class="wrapper">
+	<header>
+		<h1>Cory's Cookies</h1>
+	</header>
+	<nav>
+		<b>
+			<a href="index.html">Home</a> &nbsp;
+			<a href="ingredients.html">Ingredients</a> &nbsp;
+			<a href="orders.html">Orders</a> &nbsp;
+		</b>
+	</nav>
+	<main>
+		<h2>Shopping</h2>
+		<h3>Order's made daily!</h3>
+		<form action="https://webdevbasics.net/scripts/demo.php" method="post">
+			<label for="name">Your Name:</label>
+			<input id="name" name="name" required>
+			<label for="amount">Amount of Cookies:</label>
+			<input id="amount" name="amount" required>
+			<label for="number">Phone Number:</label>
+			<input id="number" name="number" maxlength="12" required>
+			<label for="compensation">Compensation:</label>
+			<input id="compensation" name="compensation" required>
+			<label for="requests">Special Requests:</label>
+			<input id="requests" name="requests">
+			<input type="submit" value="Submit">
+			<p>Please give three to five buisness days for orders to be processed</p>
+		</form>
+	</main>
+	<footer>
+		<small><i>
+			Copyright &copy; 2022 Cory's Cookies<br>
+			<a href="mailto:cory.benton@davistech.edu">
+				cory.benton@davistech.edu
+			</a>
+		</i></small>
+	</footer>
+	</div>
+</body>
+</html>
