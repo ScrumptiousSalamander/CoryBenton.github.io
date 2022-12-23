@@ -62,7 +62,7 @@ nav a:visited {
 	color: white;
 }
 nav a:hover {
-	color: #003366;
+	color: #61CBDC;
 }
 h1 {
 	margin-top: 0;
@@ -114,12 +114,12 @@ table {
 }
 th {
 	background-color: #660000;
-	border: 3px solid #660000;
+	border: 3px solid #820C0C;
 	padding: 0.5em;
 }
 td {
 	background-color: #660000;
 	color: white;
-	border: 3px solid #660000;
+	border: 3px solid #820C0C;
 	padding: 0.5em;
 }
