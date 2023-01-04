@@ -17,7 +17,7 @@ body {
 	min-width: 798px;
 	max-width: 2048px;
 }
-p, ul {
+p, ul, label {
 	font-size: 20px;
 	list-style: none;
 }
