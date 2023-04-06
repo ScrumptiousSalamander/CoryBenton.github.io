@@ -11,8 +11,7 @@ body {
 	background: rgb(17, 17, 35);
 }
 .wrapper {
-	margin: auto;
-	width: 50%;
+
 	padding: 10px;
 }
 p, ul, label, a {
@@ -38,6 +37,5 @@ html, body {
  const resizeOps = () => {
     document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
 };
-
 resizeOps();
 window.addEventListener("resize", resizeOps);
