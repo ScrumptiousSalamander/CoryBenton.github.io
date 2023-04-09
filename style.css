@@ -11,7 +11,7 @@ body {
 	background: rgb(17, 17, 35);
 }
 .wrapper {
-
+	margin: auto;
 	padding: 10px;
 }
 p, ul, label, a {
