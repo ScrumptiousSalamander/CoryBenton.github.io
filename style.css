@@ -14,9 +14,17 @@ body {
 	margin: auto;
 	padding: 10px;
 }
-p, ul, label, a {
+p, ul, label, a{
 	font-size: 20px;
 	list-style: none;
+	
+}
+li, a{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	list-style: none;
+	line-height: 55px;
 }
 table, th, td {
 	font-size: 20px;
