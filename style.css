@@ -3,6 +3,8 @@
 	color: rgb(232,234,237);
 	line-height: 35px;
 	text-decoration: none;
+}input[type=checkbox] {
+    transform: scale(2);
 }
 body {
 	user-select: none;
